@@ -42,7 +42,7 @@ git clone https://github.com/your_username/neural-network-digit-recognition.git
 
 2. Install the required Python packages:
 
-```python
+```py
 pip install numpy matplotlib tensorflow
 ```
 
