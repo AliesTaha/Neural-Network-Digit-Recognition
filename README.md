@@ -41,4 +41,33 @@ Before running this project, ensure you have the following software installed:
 
 ```bash
 git clone https://github.com/your_username/neural-network-digit-recognition.git
+```
+
+2. Install the required Python packages:
+
+```bash
+pip install numpy matplotlib tensorflow
+```
+
+## Dataset
+The dataset comprises 5000 training examples of handwritten digits from 0 to 9. Each digit is represented by a 20x20 pixel grayscale image, which is unrolled into a 400-dimensional vector for model training.
+
+## Model Architecture
+The neural network model consists of the following layers:
+
+Input layer: 400 units (corresponding to the 20x20 pixel images).
+First hidden layer: 25 units with ReLU activation.
+Second hidden layer: 15 units with ReLU activation.
+Output layer: 10 units with linear activation for multiclass classification.
+Training the Model
+The model is compiled with the Adam optimizer and SparseCategoricalCrossentropy loss function, which includes softmax logic for probability distribution. It is trained for 400 epochs to ensure adequate learning.
+
+vEvaluation and Prediction
+Model performance is evaluated based on its accuracy in classifying the test images. Predictions are made by passing an image to the model and using the softmax function to convert the output logits to probabilities.
+
+## Results
+The model demonstrates high accuracy in recognizing handwritten digits. A sample of predictions versus actual labels can be seen in the project's Jupyter notebook.
+
+## Contributing
+Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
