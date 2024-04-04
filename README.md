@@ -42,7 +42,7 @@ git clone https://github.com/your_username/neural-network-digit-recognition.git
 
 2. Install the required Python packages:
 
-```bash
+```python
 pip install numpy matplotlib tensorflow
 ```
 
@@ -70,3 +70,5 @@ The model demonstrates high accuracy in recognizing handwritten digits. A sample
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
+## Credit
+This project was completed as part of Stanford's Advanced Learning Algorithms [course](https://github.com/AliesTaha/Stanford-ML) 
