@@ -1,6 +1,3 @@
-![image](https://github.com/AliesTaha/Neural-Network-Digit-Recognition/assets/103478551/0799d463-8139-4baa-b99c-2d4e2914a62f)
-![image](https://github.com/AliesTaha/Neural-Network-Digit-Recognition/assets/103478551/5640dd37-0567-4f40-9a43-107447a4aaad)
-
 # Neural Network for Handwritten Digit Recognition
 
 This project focuses on building and training a neural network model to recognize handwritten digits (0-9) using TensorFlow. It demonstrates the fundamental concepts of neural networks, including the ReLU activation function, softmax function for multiclass classification, and the implementation of these concepts using TensorFlow's Sequential API.
@@ -51,6 +48,7 @@ pip install numpy matplotlib tensorflow
 
 ## Dataset
 The dataset comprises 5000 training examples of handwritten digits from 0 to 9. Each digit is represented by a 20x20 pixel grayscale image, which is unrolled into a 400-dimensional vector for model training.
+![image](https://github.com/AliesTaha/Neural-Network-Digit-Recognition/assets/103478551/0799d463-8139-4baa-b99c-2d4e2914a62f)
 
 ## Model Architecture
 The neural network model consists of the following layers:
@@ -61,8 +59,9 @@ Second hidden layer: 15 units with ReLU activation.
 Output layer: 10 units with linear activation for multiclass classification.
 Training the Model
 The model is compiled with the Adam optimizer and SparseCategoricalCrossentropy loss function, which includes softmax logic for probability distribution. It is trained for 400 epochs to ensure adequate learning.
+![image](https://github.com/AliesTaha/Neural-Network-Digit-Recognition/assets/103478551/5640dd37-0567-4f40-9a43-107447a4aaad)
 
-vEvaluation and Prediction
+## Evaluation and Prediction
 Model performance is evaluated based on its accuracy in classifying the test images. Predictions are made by passing an image to the model and using the softmax function to convert the output logits to probabilities.
 
 ## Results
